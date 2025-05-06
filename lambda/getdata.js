@@ -22,6 +22,10 @@ export const handler = async (event) => {
   const response = {
     statusCode: 200,
     body: JSON.stringify({ message: "success get data", data: res }),
+    headers: {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+    },
   };
   return response;
 };
