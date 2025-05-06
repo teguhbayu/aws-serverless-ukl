@@ -3,8 +3,8 @@ import json
 
 s3 = boto3.client("s3")
 
-bucket_name = "bayuawikwok123" #change this
-store_bucket_name = "bayuawikwok123-storebucket" #change this
+bucket_name = "XXXXXXXXXX" #change this
+store_bucket_name = "XXXXXXXXXXX" #change this
 
 website_configuration = {
     'IndexDocument': {'Suffix': 'index.html'},
